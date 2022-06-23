@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredericka+the+Great&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.dam{
+   min-height: 100vh;
+   width: 100%;  
+   background-image: url(bg/7bdd22209cd952bd7a43d81af5b22d1f.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    color: rgb(0, 0, 0)
+}
+.dam span{
+    font-size: 3.2rem;
+    font-family: 'Fredericka the Great', cursive;
+    position: relative;
+    top: 250px;
+    left: 80px;
+}
+.dam small{
+    font-size: 2.4rem;
+    font-family: 'Comfortaa', cursive;
+    position: relative;
+    top: 250px;
+    left: 60px;
+}
+.dam a i{
+    text-decoration: none;
+    color: black;
+    border-radius: 100px;
+}
+.dam a i:hover{
+    color: rgb(255, 255, 255);
+    scale: 2.5;
+    animation: ease-in;
+    box-shadow: 0 0 10px rgb(255, 255, 255) ,0 0 40px #2196f3 ,0 0 80px #2196f3;
+}
+    
